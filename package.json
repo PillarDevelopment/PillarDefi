@@ -1,0 +1,29 @@
+{
+  "name": "pillardefi",
+  "version": "0.0.1",
+  "description": "simple defi",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "solhint": "./node_modules/.bin/solhint -f table contracts/**/*.sol",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PillarDevelopment/PillarDefi.git"
+  },
+  "keywords": [
+    "pillardefi"
+  ],
+  "author": "Ivan Borisov 2622610@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PillarDevelopment/PillarDefi/issues"
+  },
+  "homepage": "https://github.com/PillarDevelopment/PillarDefi#readme",
+  "devDependencies": {
+    "solhint": "^3.3.2"
+  }
+}
