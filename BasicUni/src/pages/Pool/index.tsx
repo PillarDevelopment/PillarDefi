@@ -158,12 +158,12 @@ export default function Pool() {
             <TitleRow style={{ marginTop: '1rem' }} padding={'0'}>
               <HideSmall>
                 <TYPE.mediumHeader style={{ marginTop: '0.5rem', justifySelf: 'flex-start' }}>
-                  Your liquidity
+                  Твоя ликвидность
                 </TYPE.mediumHeader>
               </HideSmall>
               <ButtonRow>
                 <ResponsiveButtonSecondary as={Link} padding="6px 8px" to="/create/ETH">
-                  Create a pair
+                   Создать пару
                 </ResponsiveButtonSecondary>
                 <ResponsiveButtonPrimary
                   id="join-pool-button"
@@ -173,7 +173,7 @@ export default function Pool() {
                   to="/add/ETH"
                 >
                   <Text fontWeight={500} fontSize={16}>
-                    Add Liquidity
+                    Добавить ликвидность
                   </Text>
                 </ResponsiveButtonPrimary>
               </ButtonRow>
@@ -218,7 +218,7 @@ export default function Pool() {
             ) : (
               <EmptyProposals>
                 <TYPE.body color={theme.text3} textAlign="center">
-                  No liquidity found.
+                  Ликвидность еще не добавлена
                 </TYPE.body>
               </EmptyProposals>
             )}
